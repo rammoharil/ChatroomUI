@@ -1,0 +1,14 @@
+<header>
+  Welcome to chat room
+</header>
+<div class="chat-messages">
+    <div class="chat-messages-show-container">
+      <ul class="chat-messages-show-list" id="message-list">
+        <span class="welcome-message" *ngIf="welcomeMsg">{{welcomeMsg}}</span>
+      </ul>
+    </div>
+    <div class="chat-messages-create-container"> 
+      <input class="chat-messages-create-input" placeholder="Start typing message here" type="text" [(ngModel)]="message">
+      <button  class="chat-messages-create-button" (click)="sendMessage()"> Send </button>
+    </div>
+ </div>

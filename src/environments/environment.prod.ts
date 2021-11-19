@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  historyDataUrl: 'http://localhost:4200/assets/api/historydata.json'
 };

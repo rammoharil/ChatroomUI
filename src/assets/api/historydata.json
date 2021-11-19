@@ -1,0 +1,10 @@
+[
+    {
+        "user": "me",
+        "message": "Hello" 
+    },
+    {
+        "user": "friend",
+        "message": "Hi, How are you!!"
+    }
+]
